@@ -1,0 +1,17 @@
+
+
+html {
+  background-color: #463730;
+  font-family: 'Bevan';
+  padding: 1em;
+}
+
+h1, p {
+  color: #759FBC;
+  padding: 0.5em;
+}
+img {
+  width=750px;
+  max-width: 100%;
+  height: auto;
+}
