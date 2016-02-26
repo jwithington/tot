@@ -1,7 +1,5 @@
-function cssgramify() { //function name
-  "use strict";
-    var color = ''; // hexadecimal starting symbol
-    var filters = ["aden",
+$(document).ready(function(){
+    var classes = ["aden",
                   "reyes",
                   "perpetua",
                   "inkwell",
@@ -18,7 +16,8 @@ function cssgramify() { //function name
                   "lark",
                   "moon",
                   "clarendon",
-                  "willow"]; //Set your filters here
-    color += filters[Math.floor(Math.random() * filters.length)];
-    document.getElementById('tot').style.class = color; // Setting the random color on your div element.
-  };
+                  "willow"];
+    $("#tot").each(function(){
+        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+    });
+});
