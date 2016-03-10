@@ -10,6 +10,10 @@ h1, p {
   color: #759FBC;
   padding: 0.5em;
 }
+
+h2 {
+  color: #759FBC;
+}
 img {
   width=500px;
   max-width: 100%;
