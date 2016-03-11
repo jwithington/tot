@@ -3,7 +3,7 @@
 html {
   background-color: #463730;
   font-family: 'Bevan';
-  padding: 1em;
+  /*padding: 1em;*/
 }
 
 h1, p {
@@ -16,7 +16,5 @@ h2 {
 }
 
 img {
-  width=500px;
-  max-width: 100%;
-  height: auto;
+  max-width: 500px;
 }
