@@ -3,7 +3,6 @@
 html {
   background-color: #463730;
   font-family: 'Bevan';
-  /*padding: 1em;*/
 }
 
 h1, p {
@@ -15,6 +14,17 @@ h2 {
   color: #759FBC;
 }
 
-img {
-  max-width: auto;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Layout*/
+
+.flex-container {
+  display: flex;
+}
+
+#tot {
+  width: 100%;
 }
