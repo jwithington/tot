@@ -23,8 +23,21 @@ body {
 
 .flex-container {
   display: flex;
+  margin: 10%;
 }
 
 #tot {
-  width: 100%;
+  width: 90%;
 }
+
+/*Media Queries*/
+
+@media (max-width:600px){
+  h1, p {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: .75em
+  }
+}
+
