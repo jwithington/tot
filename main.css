@@ -7,13 +7,9 @@ html {
   font-family: 'Bevan';
 }
 
-h1, p {
+h1, h2, p {
   color: #759FBC;
   padding: 0.5em;
-}
-
-h2 {
-  color: #759FBC;
 }
 
 body {
