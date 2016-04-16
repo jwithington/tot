@@ -23,8 +23,25 @@ body {
 
 .flex-container {
   display: flex;
+  margin: 10%;
 }
 
 #tot {
+<<<<<<< HEAD
   width: 50%;
+=======
+  width: 90%;
+>>>>>>> a0464d1c9ae5fc75a6af7da2e778c7addf828eae
 }
+
+/*Media Queries*/
+
+@media (max-width:600px){
+  h1, p {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: .75em
+  }
+}
+
