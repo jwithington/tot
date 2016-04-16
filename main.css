@@ -27,11 +27,7 @@ body {
 }
 
 #tot {
-<<<<<<< HEAD
-  width: 50%;
-=======
   width: 90%;
->>>>>>> a0464d1c9ae5fc75a6af7da2e778c7addf828eae
 }
 
 /*Media Queries*/
@@ -44,4 +40,3 @@ body {
     font-size: .75em
   }
 }
-
